@@ -23,7 +23,7 @@ export default class App extends Component {
     const computerChoice = this.state.chambers[
       Math.floor(Math.random() * this.state.chambers.length)
     ];
-    const message = "ALIVE";
+    let message = "ALIVE";
     let idx;
     let count = this.state.count;
     console.log("players", this.state.players.length);
